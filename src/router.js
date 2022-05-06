@@ -1,0 +1,86 @@
+import Vue from "vue";
+import Router from "vue-router";
+import Index from "./views/Index.vue";
+import Landing from "./views/Landing.vue";
+import Login from "./views/Login.vue";
+import Profile from "./views/Profile.vue";
+import MainNavbar from "./layout/MainNavbar.vue";
+import MainFooter from "./layout/MainFooter.vue";
+import AboutView from "./views/AboutView.vue"
+import ContactPage from './views/ContactPage.vue'
+import Services from './views/Services.vue'
+import Testimonials from './views/Testimonials.vue'
+
+
+
+Vue.use(Router);
+
+export default new Router({
+  routes: [
+    {
+      path: "/",
+      name: "index",
+      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: "/landing",
+      name: "landing",
+      components: { default: Landing, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    },
+    {
+      path: '/about',
+      name: 'about',
+      components: { default: AboutView, header: MainNavbar, footer: MainFooter },
+    },
+    {
+      path: '/contact',
+      name: 'contact',
+      components: { default: ContactPage, header: MainNavbar, footer: MainFooter },
+    },
+    {
+      path: '/services',
+      name: 'services',
+      components: { default: Services, header: MainNavbar, footer: MainFooter },
+    },
+    {
+      path: '/testimonials',
+      name: 'testimonials',
+      components: { default: Testimonials, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 }
+      }
+    },
+    {
+      path: "/login",
+      name: "login",
+      components: { default: Login, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 }
+      }
+    },
+    {
+      path: "/profile",
+      name: "profile",
+      components: { default: Profile, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
+    }
+  ],
+  scrollBehavior: to => {
+    if (to.hash) {
+      return { selector: to.hash };
+    } else {
+      return { x: 0, y: 0 };
+    }
+  }
+});
