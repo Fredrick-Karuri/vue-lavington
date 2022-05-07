@@ -31,7 +31,7 @@
       </nav>
       <div class="copyright">
         &copy; {{ year }}, Lavington Builders & Designers <md-icon>favorite</md-icon> by
-        <a href="https://www.artohm.netflify.app" target="_blank">artohm</a>
+        <a href="#" target="_blank">artohm</a>
         
       </div>
     </div>

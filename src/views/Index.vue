@@ -9,8 +9,7 @@
             <!-- <img :src="leaf2" alt="leaf2" class="leaf2" v-show="leafShow" /> -->
             <!-- <img :src="leaf1" alt="leaf1" class="leaf1" v-show="leafShow" /> -->
             <div class="brand">
-              <h1>Vue Material Kit</h1>
-              <h3>A Badass Vue.js UI Kit made with Material Design.</h3>
+              <h3> House Design</h3>
             </div>
           </div>
         </div>

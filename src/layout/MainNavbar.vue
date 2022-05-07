@@ -49,10 +49,6 @@
                             <p>All Components</p>
                           </a>
                         </li>
-                       
-
-                       
-                        
                       </ul>
                     </drop-down>
                   </div>
@@ -116,24 +112,35 @@
                   </div>
                 </a>
               </li>
+              <md-list-item href="/landing" >
+                <i> Home</i>
 
-              <md-list-item to="/about" target="_blank">
-                <p class="hidden-lg">About Us</p>
-                <md-tooltip md-direction="bottom">About Us</md-tooltip>
+                <md-tooltip md-direction="bottom"></md-tooltip>
+              </md-list-item>
+              <md-list-item to="/about" >
+                <!-- <p class="hidden-lg">About Us</p> -->
+                <i> About Us</i>
+
+                <md-tooltip md-direction="bottom">Who Are We?</md-tooltip>
               </md-list-item>
 
-              <md-list-item to="/services" target="_blank">
-                <p class="hidden-lg">Services</p>
-                <md-tooltip md-direction="bottom">Our Services</md-tooltip>
+              <md-list-item to="/services" >
+                <!-- <p class="hidden-lg">Services</p> -->
+                <md-tooltip md-direction="bottom">What we do</md-tooltip>
+                <i> Services</i>
               </md-list-item>
 
-              <md-list-item to="/testimonials" target="_blank">
-                <p class="hidden-lg">Testimonials</p>
-                <md-tooltip md-direction="bottom">Testimonials</md-tooltip>
+              <md-list-item to="/Testimonials" >
+                <!-- <p class="hidden-lg">Testimonials</p> -->
+                <i> Testimonials</i>
+
+                <md-tooltip md-direction="bottom"></md-tooltip>
               </md-list-item>
 
-              <md-list-item to="/contact" target="_blank">
-                <p class="hidden-lg">Contact Us</p>
+              <md-list-item to="/contact" >
+                <!-- <p class="hidden-lg">Contact Us</p> -->
+                <i> Contact Us</i>
+
                 <md-tooltip md-direction="bottom">Contact Us</md-tooltip>
               </md-list-item>
 
@@ -167,7 +174,6 @@
                   >Follow us on Instagram</md-tooltip
                 >
               </md-list-item> -->
-
             </md-list>
           </div>
         </div>

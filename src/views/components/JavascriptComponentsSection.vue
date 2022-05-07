@@ -146,6 +146,7 @@
       <div class="title">
         <h3>Carousel</h3>
       </div>
+
       <div class="md-layout">
         <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
           <md-card>
@@ -205,7 +206,7 @@ export default {
     return {
       classicModal: false,
       selectedDate: new Date("2018/03/26"),
-      carousel1: require("@/assets/img/nature-2.jpg"),
+      carousel1: require("@/assets/img/doors/door1.jpeg"),
       carousel2: require("@/assets/img/nature.jpg"),
       carousel3: require("@/assets/img/nature-3.jpg")
     };
