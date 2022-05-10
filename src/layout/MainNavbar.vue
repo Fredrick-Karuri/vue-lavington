@@ -112,7 +112,7 @@
                   </div>
                 </a>
               </li>
-              <md-list-item href="/landing" >
+              <md-list-item to="/landing" >
                 <i> Home</i>
 
                 <md-tooltip md-direction="bottom"></md-tooltip>

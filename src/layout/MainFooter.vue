@@ -7,32 +7,41 @@
     <div class="container">
       <nav>
         <ul>
-          <li>
-            <a href="https://www.creative-tim.com">
-              Creative Tim
-            </a>
-          </li>
-          <li>
+          
+
+          <md-list-item to="/landing">
+            <a> Contact Us</a>
+          </md-list-item>
+          <md-list-item to="/landing">
+            <a> About Us</a>
+          </md-list-item>
+         
+           <md-list-item to="#" >
+                <a> Terms and Conditions</a>
+
+              </md-list-item>
+          <!-- <li>
             <a href="https:///presentation.creative-tim.com">
               About Us
             </a>
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <a href="https:///blog.creative-tim.com">
               Blog
             </a>
-          </li>
-          <li>
+          </li> -->
+          <!-- <li>
             <a href="https://www.creative-tim.com/license">
               Licenses
             </a>
-          </li>
+          </li> -->
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, Lavington Builders & Designers <md-icon>favorite</md-icon> by
-        <a href="#" target="_blank">artohm</a>
-        
+        0722863577 | lav4designs@gmail.com  <br> 
+        &copy; {{ year }}, Lavington Builders & Designers | Ngong' Road-Nairobi
+
+        <!-- <md-icon>favorite</md-icon>  -->
       </div>
     </div>
   </footer>
@@ -43,11 +52,11 @@ export default {
     backgroundColor: String,
     type: String
   },
-  data() {
+  data () {
     return {
       year: new Date().getFullYear()
-    };
+    }
   }
-};
+}
 </script>
 <style></style>

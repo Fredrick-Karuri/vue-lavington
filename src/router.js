@@ -39,16 +39,28 @@ export default new Router({
       path: '/about',
       name: 'about',
       components: { default: AboutView, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
     },
     {
       path: '/contact',
       name: 'contact',
       components: { default: ContactPage, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
     },
     {
       path: '/services',
       name: 'services',
       components: { default: Services, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: "black" }
+      }
     },
     {
       path: '/testimonials',
