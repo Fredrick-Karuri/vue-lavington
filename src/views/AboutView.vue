@@ -73,11 +73,11 @@
               <!-- here you can add your content for tab-content -->
               <template slot="tab-pane-1">
                 <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
+                  <div class="md-layout-item md-size-50 ml-auto">
                     <img :src="tabPane1[0].image" class="rounded" />
                     <img :src="tabPane1[1].image" class="rounded" />
                   </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
+                  <div class="md-layout-item md-size-50 mr-auto">
                     <img :src="tabPane1[3].image" class="rounded" />
                     <img :src="tabPane1[2].image" class="rounded" />
                   </div>
@@ -85,12 +85,12 @@
               </template>
               <template slot="tab-pane-2">
                 <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
+                  <div class="md-layout-item md-size-50 ml-auto">
                     <img :src="tabPane2[0].image" class="rounded" />
                     <img :src="tabPane2[1].image" class="rounded" />
                     <img :src="tabPane2[2].image" class="rounded" />
                   </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
+                  <div class="md-layout-item md-size-50 mr-auto">
                     <img :src="tabPane2[3].image" class="rounded" />
                     <img :src="tabPane2[4].image" class="rounded" />
                   </div>
@@ -98,11 +98,11 @@
               </template>
               <template slot="tab-pane-3">
                 <div class="md-layout">
-                  <div class="md-layout-item md-size-25 ml-auto">
+                  <div class="md-layout-item md-size-50 ml-auto">
                     <img :src="tabPane3[0].image" class="rounded" />
                     <img :src="tabPane3[1].image" class="rounded" />
                   </div>
-                  <div class="md-layout-item md-size-25 mr-auto">
+                  <div class="md-layout-item md-size-50 mr-auto">
                     <img :src="tabPane3[2].image" class="rounded" />
                     <img :src="tabPane3[3].image" class="rounded" />
                     <img :src="tabPane3[4].image" class="rounded" />
@@ -127,24 +127,31 @@ export default {
   data () {
     return {
       tabPane1: [
-        { image: require('@/assets/img/examples/studio-1.jpg') },
-        { image: require('@/assets/img/examples/studio-2.jpg') },
-        { image: require('@/assets/img/examples/studio-4.jpg') },
-        { image: require('@/assets/img/examples/studio-5.jpg') }
+        { image: require('@/assets/img/bed/bed12.jpg') },
+        { image: require('@/assets/img/bed/bed11.jpg') },
+        { image: require('@/assets/img/bed/bed13.jpg') },
+        { image: require('@/assets/img/bed/bed6.jpg') },
+
+       
       ],
       tabPane2: [
-        { image: require('@/assets/img/examples/olu-eletu.jpg') },
-        { image: require('@/assets/img/examples/clem-onojeghuo.jpg') },
-        { image: require('@/assets/img/examples/cynthia-del-rio.jpg') },
-        { image: require('@/assets/img/examples/mariya-georgieva.jpg') },
-        { image: require('@/assets/img/examples/clem-onojegaw.jpg') }
+        { image: require('@/assets/img/furnishing/chairs/chair1.jpg') },
+        { image: require('@/assets/img/furnishing/chairs/chair3.jpg') },
+        { image: require('@/assets/img/furnishing/chairs/chair7.jpg') },
+        { image: require('@/assets/img/furnishing/chairs/chair8.jpg') },
+        { image: require('@/assets/img/furnishing/chairs/chair9.jpg') },
+       
       ],
       tabPane3: [
-        { image: require('@/assets/img/examples/mariya-georgieva.jpg') },
-        { image: require('@/assets/img/examples/studio-3.jpg') },
-        { image: require('@/assets/img/examples/clem-onojeghuo.jpg') },
-        { image: require('@/assets/img/examples/olu-eletu.jpg') },
-        { image: require('@/assets/img/examples/studio-1.jpg') }
+        { image: require('@/assets/img/furnishing/kit1.jpg') },
+        { image: require('@/assets/img/furnishing/kit2.jpg') },
+        { image: require('@/assets/img/furnishing/kit4.jpg') },
+        { image: require('@/assets/img/furnishing/kit6.jpg') },
+        { image: require('@/assets/img/furnishing/kit11.jpg') },
+        // { image: require('@/assets/img/examples/studio-3.jpg') },
+        // { image: require('@/assets/img/examples/clem-onojeghuo.jpg') },
+        // { image: require('@/assets/img/examples/olu-eletu.jpg') },
+        // { image: require('@/assets/img/examples/studio-1.jpg') }
       ]
     }
   },
