@@ -112,36 +112,34 @@
                   </div>
                 </a>
               </li>
-              <md-list-item to="/landing" >
+              <md-list-item to="/landing">
                 <i> Home</i>
-
-                <md-tooltip md-direction="bottom"></md-tooltip>
               </md-list-item>
-              <md-list-item to="/about" >
-                <!-- <p class="hidden-lg">About Us</p> -->
+              <md-list-item to="/about">
                 <i> About Us</i>
 
                 <md-tooltip md-direction="bottom">Who Are We?</md-tooltip>
               </md-list-item>
 
-              <md-list-item to="/services" >
+              <md-list-item to="/services">
                 <!-- <p class="hidden-lg">Services</p> -->
-                <md-tooltip md-direction="bottom">What we do</md-tooltip>
+                <md-tooltip md-direction="bottom">What do we do? </md-tooltip>
                 <i> Services</i>
               </md-list-item>
 
-              <md-list-item to="/Testimonials" >
-                <!-- <p class="hidden-lg">Testimonials</p> -->
+              <md-list-item to="/Testimonials">
+                <md-tooltip md-direction="bottom"
+                  >Our Customers' feedback
+                </md-tooltip>
+
                 <i> Testimonials</i>
 
-                <md-tooltip md-direction="bottom"></md-tooltip>
               </md-list-item>
 
-              <md-list-item to="/contact" >
-                <!-- <p class="hidden-lg">Contact Us</p> -->
+              <md-list-item to="/contact">
                 <i> Contact Us</i>
 
-                <md-tooltip md-direction="bottom">Contact Us</md-tooltip>
+                <md-tooltip md-direction="bottom">Get in touch</md-tooltip>
               </md-list-item>
 
               <!-- <md-list-item

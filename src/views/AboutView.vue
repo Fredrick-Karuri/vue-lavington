@@ -42,14 +42,15 @@
             </div>
           </div>
           <div class="description text-center">
+            <!-- <span class="tim-note">Paragraph</span> -->
             <p>
               Welcome to lavington builders and designers, your number one
               source for all matters design. We're dedicated to providing you
               the very best designing for your home , with an emphasis on
               internal Decoration, furnishing,general office and home , house
               repair, Electrical.Explore our collection of
+              <router-link to="/services">services</router-link>
 
-              <a href="./Services.vue">services.</a>
               Founded in [year] by [founder name], lavington builders and
               designers has come a long way from its beginnings in [starting
               location]. When [founder name] first started out, [his] passion
@@ -57,7 +58,7 @@
               them to start their own business. We hope you will give us a
               chance to do that which we enjoy doing. If you have any questions
               or comments, please don't hesitate to
-              <a href="./ContactPage.vue"> contact us.</a>
+              <router-link to="/contact">contact us</router-link>
               Sincerely, [founder name]
             </p>
           </div>
@@ -150,7 +151,8 @@ export default {
   props: {
     header: {
       type: String,
-      default: require('@/assets/img/city-profile.jpg')
+      // default: require('@/assets/img/internal-decoration/decor1.jpg')
+      default: require('@/assets/img/background/house1.jpeg')
     },
     img: {
       type: String,

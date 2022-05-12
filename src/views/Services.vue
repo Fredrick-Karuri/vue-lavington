@@ -1,4 +1,6 @@
 <template>
+<progress-scroll background="#222">
+
   <div class="wrapper">
     <!-- <div class="page-header header-filter" :style="headerStyle"></div> -->
    <parallax
@@ -850,6 +852,8 @@
       </div>
     </div>
   </div>
+</progress-scroll>
+
 </template>
 
 <script>
@@ -917,7 +921,9 @@ export default {
    props: {
     header: {
       type: String,
-      default: require('@/assets/img/city-profile.jpg')
+      // default: require('@/assets/img/city-profile.jpg')
+      default: require('@/assets/img/background/house1.jpeg')
+
     },
     img: {
       type: String,
