@@ -15,8 +15,26 @@
             </div>
           </div>
           <div class="description text-center">
+            <div id="images">
+              <iframe
+                src="https://maps.google.com/maps?q=pathway%20Ngong'%20road%20-Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                frameborder="0"
+                scrolling="yes"
+                marginheight="0"
+                marginwidth="0"
+                
+                :class="{ 'responsive-image': responsive }"
+              ></iframe
+              ><a
+                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"
+              ></a>
+              <br />
+
+              <a href="https://www.embedgooglemap.net"></a>
+            </div>
             <!-- <span class="tim-note">Paragraph</span> -->
             <p>
+              <br>
               Lavington Builders and designers <br />
               P.O BOX 26870-00100 <br />
               Nairobi-Kenya <br />
@@ -94,7 +112,18 @@ export default {
 .section {
   padding: 0;
 }
-
+.mapouter {
+  position: relative;
+  text-align: left;
+  height: 300px;
+  width: 300px;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 400px;
+  width: 320px;
+}
 .profile-tabs::v-deep {
   .md-card-tabs .md-list {
     justify-content: center;

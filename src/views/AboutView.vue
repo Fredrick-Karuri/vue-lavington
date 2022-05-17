@@ -11,9 +11,6 @@
             <div class="md-layout-item md-size-50 mx-auto">
               <div class="profile">
                 <div class="avatar">
-                  <!-- :src="img"
-                    class="img-raised rounded-circle img-fluid" -->
-
                   <img
                     alt="Circle Image"
                     src="http://www.clker.com/cliparts/j/j/Z/6/h/C/black-man-md.png"
@@ -21,10 +18,10 @@
                 </div>
                 <div class="name">
                   <h3 class="title">Boaz</h3>
-                  <h6>Designer</h6>
+                  <h6>Director</h6>
                   <md-button
                     href="javascript:void(0)"
-                    class="md-just-icon md-simple md-dribbble"
+                    class="md-just-icon md-simple md-facebook"
                     ><i class="fab fa-facebook"></i
                   ></md-button>
                   <md-button
@@ -34,7 +31,7 @@
                   ></md-button>
                   <md-button
                     href="javascript:void(0)"
-                    class="md-just-icon md-simple md-pinterest"
+                    class="md-just-icon md-simple md-whatsapp"
                     ><i class="fab fa-whatsapp"></i
                   ></md-button>
                 </div>
@@ -61,11 +58,23 @@
               <router-link to="/contact">contact us</router-link>
               Sincerely, [founder name]
             </p>
+
+
+
+            
           </div>
+           <div id="images">
+              <img
+                src="@/assets/img/background/house3.jpeg"
+                alt="Image of our team"
+                class="img-raised rounded"
+                :class="{ 'responsive-image': responsive }"
+              />
+            </div>
           <div class="profile-tabs">
             <tabs
               :tab-name="['site', 'WorkFlow', 'Favorite']"
-              :tab-icon="['camera', 'palette', 'favorite']"
+              :tab-icon="['house', 'work', 'favorite']"
               plain
               nav-pills-icons
               color-button="success"
@@ -130,35 +139,27 @@ export default {
         { image: require('@/assets/img/bed/bed12.jpg') },
         { image: require('@/assets/img/bed/bed11.jpg') },
         { image: require('@/assets/img/bed/bed13.jpg') },
-        { image: require('@/assets/img/bed/bed6.jpg') },
-
-       
+        { image: require('@/assets/img/bed/bed6.jpg') }
       ],
       tabPane2: [
         { image: require('@/assets/img/furnishing/chairs/chair1.jpg') },
         { image: require('@/assets/img/furnishing/chairs/chair3.jpg') },
         { image: require('@/assets/img/furnishing/chairs/chair7.jpg') },
         { image: require('@/assets/img/furnishing/chairs/chair8.jpg') },
-        { image: require('@/assets/img/furnishing/chairs/chair9.jpg') },
-       
+        { image: require('@/assets/img/furnishing/chairs/chair9.jpg') }
       ],
       tabPane3: [
         { image: require('@/assets/img/furnishing/kit1.jpg') },
         { image: require('@/assets/img/furnishing/kit2.jpg') },
         { image: require('@/assets/img/furnishing/kit4.jpg') },
         { image: require('@/assets/img/furnishing/kit6.jpg') },
-        { image: require('@/assets/img/furnishing/kit11.jpg') },
-        // { image: require('@/assets/img/examples/studio-3.jpg') },
-        // { image: require('@/assets/img/examples/clem-onojeghuo.jpg') },
-        // { image: require('@/assets/img/examples/olu-eletu.jpg') },
-        // { image: require('@/assets/img/examples/studio-1.jpg') }
+        { image: require('@/assets/img/furnishing/kit11.jpg') }
       ]
     }
   },
   props: {
     header: {
       type: String,
-      // default: require('@/assets/img/internal-decoration/decor1.jpg')
       default: require('@/assets/img/background/house1.jpeg')
     },
     img: {
