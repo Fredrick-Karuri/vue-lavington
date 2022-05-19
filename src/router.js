@@ -10,6 +10,8 @@ import AboutView from "./views/AboutView.vue"
 import ContactPage from './views/ContactPage.vue'
 import Services from './views/Services.vue'
 import Testimonials from './views/Testimonials.vue'
+// import terms from './views/terms.vue'
+
 
 
 
@@ -25,6 +27,15 @@ export default new Router({
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
       }
+    },
+    {
+      path: "/terms",
+      name: "terms",
+      // components: { default: terms, header: MainNavbar, footer: MainFooter },
+      // props: {
+      //   header: { colorOnScroll: 400 },
+      //   footer: { backgroundColor: "black" }
+      // }
     },
     {
       path: "/landing",

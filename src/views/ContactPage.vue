@@ -17,24 +17,18 @@
           <div class="description text-center">
             <div id="images">
               <iframe
-                src="https://maps.google.com/maps?q=pathway%20Ngong'%20road%20-Nairobi&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                frameborder="0"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1185.8723224473688!2d36.7420803078716!3d-1.3052044847842033!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f1a5243ca6d8f%3A0x65011a6653348169!2sPathway%20Hotel!5e0!3m2!1sen!2ske!4v1652857621506!5m2!1sen!2ske"
+                width="600"
+                height="450"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
                 scrolling="yes"
-                marginheight="0"
-                marginwidth="0"
-                
-                :class="{ 'responsive-image': responsive }"
-              ></iframe
-              ><a
-                href="https://www.embedgooglemap.net/blog/divi-discount-code-elegant-themes-coupon/"
-              ></a>
-              <br />
-
-              <a href="https://www.embedgooglemap.net"></a>
+              ></iframe>
             </div>
-            <!-- <span class="tim-note">Paragraph</span> -->
             <p>
-              <br>
+              <br />
               Lavington Builders and designers <br />
               P.O BOX 26870-00100 <br />
               Nairobi-Kenya <br />
@@ -78,11 +72,8 @@
 </template>
 
 <script>
-import { Tabs } from '@/components'
 export default {
-  components: {
-    // Tabs
-  },
+  components: {},
   bodyClass: 'profile-page',
   data () {
     return {}
@@ -112,18 +103,7 @@ export default {
 .section {
   padding: 0;
 }
-.mapouter {
-  position: relative;
-  text-align: left;
-  height: 300px;
-  width: 300px;
-}
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 400px;
-  width: 320px;
-}
+
 .profile-tabs::v-deep {
   .md-card-tabs .md-list {
     justify-content: center;

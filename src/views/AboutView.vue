@@ -58,19 +58,15 @@
               <router-link to="/contact">contact us</router-link>
               Sincerely, [founder name]
             </p>
-
-
-
-            
           </div>
-           <div id="images">
-              <img
-                src="@/assets/img/background/house3.jpeg"
-                alt="Image of our team"
-                class="img-raised rounded"
-                :class="{ 'responsive-image': responsive }"
-              />
-            </div>
+          <div id="images">
+            <img
+              src="@/assets/img/background/house3.jpeg"
+              alt="Image of our team"
+              class="img-raised rounded"
+              :class="{ 'responsive-image': responsive }"
+            />
+          </div>
           <div class="profile-tabs">
             <tabs
               :tab-name="['site', 'WorkFlow', 'Favorite']"

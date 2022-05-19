@@ -8,7 +8,7 @@
   >
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
-        <h3 class="md-title"  >Lavington Builders & Designers </h3>
+         <h3 class="md-title"  >Lavington Builders & Designers  </h3>
       </div>
       <div class="md-toolbar-section-end">
         <md-button
@@ -25,6 +25,7 @@
           <div class="md-collapse-wrapper">
             <mobile-menu nav-mobile-section-start="false">
               <!-- Here you can add your items from the section-start of your toolbar -->
+
             </mobile-menu>
             <md-list>
               <li class="md-list-item" v-if="!showDownload">

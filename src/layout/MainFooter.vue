@@ -7,24 +7,20 @@
     <div class="container">
       <nav>
         <ul>
-          
-
-          <md-list-item to="/landing">
+          <md-list-item to="/contact">
             <a> Contact Us</a>
           </md-list-item>
-          <md-list-item to="/landing">
+          <md-list-item to="/about">
             <a> About Us</a>
           </md-list-item>
-         
-           <md-list-item to="#" >
-                <a> Terms and Conditions</a>
 
-              </md-list-item>
-         
+          <md-list-item to="/terms">
+            <a> Terms and Conditions</a>
+          </md-list-item>
         </ul>
       </nav>
       <div class="copyright">
-        0722863577 | lav4designs@gmail.com  <br> 
+        0722863577 | lav4designs@gmail.com <br />
         &copy; {{ year }}, Lavington Builders & Designers | Ngong' Road-Nairobi
 
         <!-- <md-icon>favorite</md-icon>  -->
