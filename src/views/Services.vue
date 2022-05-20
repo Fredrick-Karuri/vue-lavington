@@ -17,7 +17,6 @@
           <div class="tim-typo">
             <h3><span></span>Wooden and Metal Security Doors</h3>
           </div>
-
           <div class="md-layout">
             <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
               <md-card>
@@ -156,6 +155,7 @@
 
           <div class="tim-typo">
             <h3><span></span>Internal Decoration</h3>
+            :tab-icon=
           </div>
           <div class="md-layout">
             <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
@@ -232,7 +232,7 @@
             <h3><span></span>Furnishing</h3>
           </div>
           <div class="md-layout-item md-size-70 mx-auto md-small-size-100">
-            <div class="md-layout">
+            <!-- <div class="md-layout"> -->
 
             <!-- <md-card>
                 <carousel
@@ -348,8 +348,8 @@
                   </div>
                 </template>
               </tabs>
-              </div>
             </div>
+            <!-- </div> -->
           </div>
 
           <div class="tim-typo">
@@ -964,7 +964,6 @@ export default {
       type: String,
       default: require('@/assets/img/background/house1.jpeg')
     }
-    
   },
   computed: {
     headerStyle () {
@@ -989,7 +988,6 @@ export default {
   font-weight: 300;
   font-size: 28.6px;
 }
-
 
 @media all and (min-width: 991px) {
   .btn-container {

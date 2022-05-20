@@ -21,8 +21,8 @@ export default new Router({
   routes: [
     {
       path: "/",
-      name: "index",
-      components: { default: Index, header: MainNavbar, footer: MainFooter },
+      name: "home",
+      components: { default: Landing, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }
@@ -38,9 +38,9 @@ export default new Router({
       // }
     },
     {
-      path: "/landing",
-      name: "landing",
-      components: { default: Landing, header: MainNavbar, footer: MainFooter },
+      path: "/index",
+      name: "Index",
+      components: { default: Index, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: "black" }

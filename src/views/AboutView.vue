@@ -39,25 +39,29 @@
             </div>
           </div>
           <div class="description text-center">
-            <!-- <span class="tim-note">Paragraph</span> -->
-            <p>
+            <span class="tim-note"></span>
+            <h5>
               Welcome to lavington builders and designers, your number one
               source for all matters design. We're dedicated to providing you
-              the very best designing for your home , with an emphasis on
-              internal Decoration, furnishing,general office and home , house
-              repair, Electrical.Explore our collection of
-              <router-link to="/services">services</router-link>
+              the very best designing for your home, with an emphasis on
+              internal Decoration, furnishing,general office and home, house
+              repair, etc .Explore our collection of
+              <router-link to="/services">
+                services. <br />
+                <br
+              /></router-link>
 
               Founded in [year] by [founder name], lavington builders and
               designers has come a long way from its beginnings in [starting
               location]. When [founder name] first started out, [his] passion
               for [brand message - e.g. "eco-friendly cleaning products"] drove
               them to start their own business. We hope you will give us a
-              chance to do that which we enjoy doing. If you have any questions
+              chance to do that which we enjoy doing. <br>
+              If you have any questions
               or comments, please don't hesitate to
-              <router-link to="/contact">contact us</router-link>
+              <router-link to="/contact">contact us.</router-link>
               Sincerely, [founder name]
-            </p>
+            </h5>
           </div>
           <div id="images">
             <img

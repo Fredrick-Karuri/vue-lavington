@@ -8,7 +8,7 @@
       <div class="section profile-content">
         <div class="container">
           <div class="md-layout">
-            <div class="md-layout-item md-size-50 mx-auto">
+            <div class="md-layout-item md-size-60 mx-auto">
               <div class="tim-typo">
                 <h3 class="title"><span></span>Contact Us</h3>
               </div>

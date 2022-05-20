@@ -113,7 +113,7 @@
                   </div>
                 </a>
               </li> -->
-              <md-list-item to="/landing">
+              <md-list-item to="/">
                 <i> Home</i>
               </md-list-item>
               <md-list-item to="/about">
