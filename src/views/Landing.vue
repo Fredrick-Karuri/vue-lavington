@@ -276,6 +276,9 @@
 </template>
 
 <script>
+import { title } from 'process'
+import db from '../fb'
+import console, { log } from 'console'
 export default {
   bodyClass: 'landing-page',
   props: {
@@ -302,6 +305,20 @@ export default {
       name: null,
       email: null,
       message: null
+    }
+  },
+  methods:{
+    submit(){
+      if(this.$refs.form.validate()){
+        name:this.name
+        title:this.title
+        content:this.content
+        person:'Boaz'
+        status:'ongoing'
+
+
+      }
+      db.collection('projects').add(project).then(()=>{console.log('added to db')})
     }
   },
   computed: {

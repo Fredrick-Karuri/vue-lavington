@@ -6,6 +6,7 @@ import router from "./router";
 
 import MaterialKit from "./plugins/material-kit";
 
+
 Vue.config.productionTip = false;
 
 Vue.use(MaterialKit);

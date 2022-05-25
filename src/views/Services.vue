@@ -155,7 +155,6 @@
 
           <div class="tim-typo">
             <h3><span></span>Internal Decoration</h3>
-            :tab-icon=
           </div>
           <div class="md-layout">
             <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
@@ -231,6 +230,8 @@
           <div class="tim-typo">
             <h3><span></span>Furnishing</h3>
           </div>
+
+          <!-- Todo: animate -->
           <div class="md-layout-item md-size-70 mx-auto md-small-size-100">
             <!-- <div class="md-layout"> -->
 
@@ -302,8 +303,8 @@
               </md-card> -->
             <div class="profile-tabs">
               <tabs
-                :tab-name="['Beds', 'Chairs', 'Kitchen']"
-                :tab-icon="['bed', 'chair', 'kitchen']"
+                :tab-name="['Beds', 'Chairs', 'Kitchen','Wardrobe']"
+                :tab-icon="['bed', 'chair', 'kitchen','kitchen']"
                 plain
                 nav-pills-icons
                 color-button="success"
@@ -353,7 +354,7 @@
           </div>
 
           <div class="tim-typo">
-            <h3><span></span>CCTV and Alarm System</h3>
+            <h3><span></span>CCTV Installation</h3>
           </div>
           <div class="md-layout">
             <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
@@ -373,29 +374,29 @@
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Somewhere Beyond, United States
+                        Nairobi
                       </h4>
                     </div>
                     <img
                       :src="carousel17"
                       style="width:100%;height:400px;"
-                      alt="carousel1"
+                      alt="image of cctv camera"
                     />
                   </slide>
                   <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Yellowstone National Park, United States
+                        Lavington
                       </h4>
                     </div>
                     <img
                       :src="carousel18"
                       style="width:100%;height:400px;"
-                      alt="carousel2"
+                      alt="image of cctv camera"
                     />
                   </slide>
-                  <slide>
+                  <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
@@ -407,8 +408,8 @@
                       style="width:100%;height:400px;"
                       alt="carousel3"
                     />
-                  </slide>
-                  <slide>
+                  </slide> -->
+                  <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
@@ -420,19 +421,37 @@
                       style="width:100%;height:400px;"
                       alt="carousel4"
                     />
-                  </slide>
+                  </slide> -->
                 </carousel>
               </md-card>
             </div>
           </div>
-
-          <div class="tim-typo">
-            <h3><span></span>Chairs</h3>
+          <div class="section">
+            <div class="container text-center">
+              <div class="md-layout">
+                <div
+                  class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center"
+                >
+                  <h3>House Repairs</h3>
+                  <h4>
+                    Our designers ensure that your remodel, new construction, or
+                    everything in between goes well. Your designer helps oversee
+                    the project by selecting materials and coordinating with
+                    builders and tradespeople to ensure the designs are carried
+                    out as planned.
+                  </h4>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="md-layout">
+          <!-- <div class="tim-typo">
+            <h3><span></span>House Repairs</h3>
+          </div> -->
+          <!-- <div class="md-layout">
             <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
-              <md-card>
-                <carousel
+              
+              <md-card> -->
+          <!-- <carousel
                   :per-page="1"
                   loop
                   :speed="700"
@@ -442,8 +461,8 @@
                   navigationEnabled
                   navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
                   navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <slide>
+                > -->
+          <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
@@ -455,12 +474,12 @@
                       style="width:100%;height:500px;"
                       alt="carousel1"
                     />
-                  </slide>
-                  <slide>
+                  </slide> -->
+          <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Yellowstone National Park, United States
+                        Nairobi
                       </h4>
                     </div>
                     <img
@@ -468,12 +487,12 @@
                       style="width:100%;height:500px;"
                       alt="carousel2"
                     />
-                  </slide>
-                  <slide>
+                  </slide> -->
+          <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Yellowstone National Park, United States
+                        Nairobi
                       </h4>
                     </div>
                     <img
@@ -481,8 +500,8 @@
                       style="width:100%;height:500px;"
                       alt="carousel3"
                     />
-                  </slide>
-                  <slide>
+                  </slide> -->
+          <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
@@ -494,11 +513,12 @@
                       style="width:100%;height:500px;"
                       alt="carousel4"
                     />
-                  </slide>
-                </carousel>
-              </md-card>
+                  </slide> -->
+          <!-- </carousel> -->
+
+          <!-- </md-card>
             </div>
-          </div>
+          </div> -->
 
           <div class="tim-typo">
             <h3><span></span>Electrical Fence Installation</h3>
@@ -521,12 +541,13 @@
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Somewhere Beyond, United States
+                        Nairobi
                       </h4>
                     </div>
                     <img
-                      :src="carousel5"
-                      style="width:auto;height:500px;"
+                      :src="carousel13"
+                      style="width:100%;height:400px;"
+
                       alt="carousel1"
                     />
                   </slide>
@@ -534,12 +555,14 @@
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Yellowstone National Park, United States
+                        Nairobi
                       </h4>
                     </div>
                     <img
-                      :src="carousel6"
-                      style="width:auto;height:500px;"
+                      :src="carousel14"
+                      style="width:100%;height:400px;"
+
+                      
                       alt="carousel2"
                     />
                   </slide>
@@ -547,16 +570,17 @@
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Yellowstone National Park, United States
+                        Nairobi
                       </h4>
                     </div>
                     <img
-                      :src="carousel7"
-                      style="width:auto;height:500px;"
+                      :src="carousel15"
+                      style="width:100%;height:400px;"
+
                       alt="carousel3"
                     />
                   </slide>
-                  <slide>
+                  <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
@@ -568,7 +592,7 @@
                       style="width:auto;height:500px;"
                       alt="carousel4"
                     />
-                  </slide>
+                  </slide> -->
                 </carousel>
               </md-card>
             </div>
@@ -743,7 +767,7 @@
             </div>
           </div>
 
-          <div class="md-layout">
+          <!-- <div class="md-layout">
             <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
               <md-card>
                 <carousel
@@ -812,7 +836,7 @@
                 </carousel>
               </md-card>
             </div>
-          </div>
+          </div> -->
 
           <div class="tim-typo">
             <h3><span></span>Landscaping</h3>
@@ -835,12 +859,14 @@
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Somewhere Beyond, United States
+                        Somewhere
                       </h4>
                     </div>
                     <img
-                      :src="carousel5"
-                      style="width:auto;height:500px;"
+                      :src="carousel21"
+                      style="width:100%;height:500px;"
+
+                      
                       alt="carousel1"
                     />
                   </slide>
@@ -848,16 +874,17 @@
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
-                        Yellowstone National Park, United States
+                        Somewhere
                       </h4>
                     </div>
                     <img
-                      :src="carousel6"
-                      style="width:auto;height:500px;"
+                      :src="carousel22"
+                      style="width:100%;height:500px;"
+
                       alt="carousel2"
                     />
                   </slide>
-                  <slide>
+                  <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
@@ -869,8 +896,8 @@
                       style="width:auto;height:500px;"
                       alt="carousel3"
                     />
-                  </slide>
-                  <slide>
+                  </slide> -->
+                  <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         <md-icon>location_on</md-icon>
@@ -882,7 +909,7 @@
                       style="width:auto;height:500px;"
                       alt="carousel4"
                     />
-                  </slide>
+                  </slide> -->
                 </carousel>
               </md-card>
             </div>
@@ -918,17 +945,24 @@ export default {
       carousel10: require('@/assets/img/internal-decoration/decor2.jpg'),
       carousel11: require('@/assets/img/internal-decoration/decor3.jpg'),
       carousel12: require('@/assets/img/internal-decoration/decor4.jpg'),
-      carousel13: require('@/assets/img/furnishing/kit7.jpg'),
-      carousel14: require('@/assets/img/furnishing/kit6.jpg'),
-      carousel15: require('@/assets/img/furnishing/kit5.jpg'),
+
+      carousel13: require('@/assets/img/fence/fence1.jpg'),
+      carousel14: require('@/assets/img/fence/fence2.jpg'),
+      carousel15: require('@/assets/img/fence/fence3.jpg'),
+      // carousel13: require('@/assets/img/furnishing/kit7.jpg'),
+      // carousel14: require('@/assets/img/furnishing/kit6.jpg'),
+      // carousel15: require('@/assets/img/furnishing/kit5.jpg'),
       carousel16: require('@/assets/img/furnishing/kit4.jpg'),
 
       carousel17: require('@/assets/img/cctv/cctv1.jpg'),
       carousel18: require('@/assets/img/cctv/cctv3.jpg'),
       carousel19: require('@/assets/img/bed/bed6.jpg'),
       carousel20: require('@/assets/img/bed/bed10.jpg'),
-      carousel21: require('@/assets/img/furnishing/chairs/chair1.jpg'),
-      carousel22: require('@/assets/img/furnishing/chairs/chair7.jpg'),
+      carousel21: require('@/assets/img/landscaping/lands1.jpg'),
+      carousel22: require('@/assets/img/landscaping/lands2.jpg'),
+
+      // carousel21: require('@/assets/img/furnishing/chairs/chair1.jpg'),
+      // carousel22: require('@/assets/img/furnishing/chairs/chair7.jpg'),
       carousel23: require('@/assets/img/furnishing/chairs/chair3.jpg'),
       carousel24: require('@/assets/img/furnishing/chairs/chair8.jpg'),
 
