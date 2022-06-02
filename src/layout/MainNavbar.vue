@@ -8,7 +8,11 @@
   >
     <div class="md-toolbar-row md-collapse-lateral">
       <div class="md-toolbar-section-start">
-         <h3 class="md-title"  >Lavington Builders & Designers  </h3>
+        <router-link :to="home"
+          ><h3 class="md-title" :class="title1">
+            Lavington Builders & Designers
+          </h3></router-link
+        >
       </div>
       <div class="md-toolbar-section-end">
         <md-button
@@ -25,38 +29,37 @@
           <div class="md-collapse-wrapper">
             <mobile-menu nav-mobile-section-start="false">
               <!-- Here you can add your items from the section-start of your toolbar -->
-
             </mobile-menu>
-            <md-list>
-              <li class="md-list-item" v-if="!showDownload">
-                <a
-                  href="javascript:void(0)"
-                  class="md-list-item-router md-list-item-container md-button-clean dropdown"
-                >
-                  <div class="md-list-item-content">
-                    <drop-down direction="down">
-                      <md-button
-                        slot="title"
-                        class="md-button md-button-link md-white md-simple dropdown-toggle"
-                        data-toggle="dropdown"
-                      >
-                        <i class="material-icons">apps</i>
-                        <p>Components</p>
-                      </md-button>
-                      <ul class="dropdown-menu dropdown-with-icons">
-                        <li>
-                          <a href="#/">
-                            <i class="material-icons">layers</i>
-                            <p>All Components</p>
-                          </a>
-                        </li>
-                      </ul>
-                    </drop-down>
-                  </div>
-                </a>
-              </li>
+              <md-list  >
+                <!-- <li class="md-list-item" v-if="!showDownload">
+                  <a
+                    href="javascript:void(0)"
+                    class="md-list-item-router md-list-item-container md-button-clean dropdown"
+                  >
+                    <div class="md-list-item-content">
+                      <drop-down direction="down">
+                        <md-button
+                          slot="title"
+                          class="md-button md-button-link md-white md-simple dropdown-toggle"
+                          data-toggle="dropdown"
+                        >
+                          <i class="material-icons">apps</i>
+                          <p>Components</p>
+                        </md-button>
+                        <ul class="dropdown-menu dropdown-with-icons">
+                          <li>
+                            <a href="#/">
+                              <i class="material-icons">layers</i>
+                              <p>All Components</p>
+                            </a>
+                          </li>
+                        </ul>
+                      </drop-down>
+                    </div>
+                  </a>
+                </li> -->
 
-              <!-- <md-list-item
+                <!-- <md-list-item
                 href="https://demos.creative-tim.com/vue-material-kit/documentation/"
                 target="_blank"
                 v-if="showDownload"
@@ -65,7 +68,7 @@
                 <p>Documentation</p>
               </md-list-item> -->
 
-              <!-- <md-list-item
+                <!-- <md-list-item
                 href="javascript:void(0)"
                 @click="scrollToElement()"
                 v-if="showDownload"
@@ -74,7 +77,7 @@
                 <p>Download</p>
               </md-list-item> -->
 
-              <!-- <li class="md-list-item" v-else>
+                <!-- <li class="md-list-item" v-else>
                 <a
                   href="javascript:void(0)"
                   class="md-list-item-router md-list-item-container md-button-clean dropdown"
@@ -113,38 +116,36 @@
                   </div>
                 </a>
               </li> -->
-              <md-list-item to="/">
-                <i> Home</i>
-              </md-list-item>
-              <md-list-item to="/about">
-                <i> About Us</i>
 
-                <md-tooltip md-direction="bottom">Who Are We?</md-tooltip>
-              </md-list-item>
+                <md-list-item to="/">
+                  <i> Home</i>
+                </md-list-item>
+                <md-list-item to="/about">
+                  <i> About Us</i>
 
-              <md-list-item to="/services">
-                <!-- <p class="hidden-lg">Services</p> -->
-                <md-tooltip md-direction="bottom">What do we do? </md-tooltip>
-                <i> Services</i>
-              </md-list-item>
+                  <md-tooltip md-direction="bottom">Who Are We?</md-tooltip>
+                </md-list-item>
 
-              <md-list-item to="/Testimonials">
-                <md-tooltip md-direction="bottom"
-                  >Our Customers' feedback
-                </md-tooltip>
+                <md-list-item to="/services">
+                  <!-- <p class="hidden-lg">Services</p> -->
+                  <md-tooltip  md-direction="bottom">What do we do? </md-tooltip>
+                  <i> Services</i>
+                </md-list-item>
 
-                <i> Testimonials</i>
-              </md-list-item>
+                <md-list-item to="/Testimonials">
+                  <md-tooltip md-direction="bottom"
+                    >Our Customers' feedback
+                  </md-tooltip>
 
-              <md-list-item to="/contact">
-                <i> Contact Us</i>
+                  <i> Testimonials</i>
+                </md-list-item>
 
-                <md-tooltip md-direction="bottom">Get in touch</md-tooltip>
-              </md-list-item>
+                <md-list-item to="/contact">
+                  <i> Contact Us</i>
 
-             
-
-            </md-list>
+                  <md-tooltip md-direction="bottom">Get in touch</md-tooltip>
+                </md-list-item>
+              </md-list>
           </div>
         </div>
       </div>
@@ -195,7 +196,9 @@ export default {
   data () {
     return {
       extraNavClasses: '',
-      toggledClass: false
+      toggledClass: false,
+      home: '/',
+      title1: 'title1'
     }
   },
   computed: {

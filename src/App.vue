@@ -2,9 +2,10 @@
   <div id="material-kit">
     <div :class="{ 'nav-open': NavbarStore.showNavbar }">
       <router-view name="header" />
-      <div>
+
+      <transition name="fade" mode="out-in" >
         <router-view />
-      </div>
+      </transition>
       <router-view name="footer" />
     </div>
   </div>

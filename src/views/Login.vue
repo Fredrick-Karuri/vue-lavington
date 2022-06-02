@@ -71,6 +71,11 @@ export default {
       password: null
     };
   },
+   methods: {
+            onFormSubmit() { 
+               alert(JSON.stringify(this.user)) 
+            }
+        },
   props: {
     header: {
       type: String,

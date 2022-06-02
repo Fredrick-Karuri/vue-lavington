@@ -46,6 +46,7 @@
               the very best designing for your home, with an emphasis on
               internal Decoration, furnishing,general office and home, house
               repair, etc .Explore our collection of
+              
               <router-link to="/services">
                 services. <br />
                 <br
@@ -79,7 +80,6 @@
               nav-pills-icons
               color-button="success"
             >
-              <!-- here you can add your content for tab-content -->
               <template slot="tab-pane-1">
                 <div class="md-layout">
                   <div class="md-layout-item md-size-50 ml-auto">
@@ -157,6 +157,7 @@ export default {
       ]
     }
   },
+  
   props: {
     header: {
       type: String,

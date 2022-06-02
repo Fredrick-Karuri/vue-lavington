@@ -4,14 +4,15 @@
       <div class="container">
         <div class="md-layout">
           <div class="image-wrapper">
+            <!-- <imageSlider/> -->
             <div
               class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
             >
               <h1 class="title">Your Dream Home Starts With Us.</h1>
-              <h4>
+              <h3>
                 Need to decorate your home to your liking ? <br />
                 Try us.
-              </h4>
+              </h3>
               <br />
             </div>
           </div>
@@ -26,7 +27,7 @@
               class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto text-center"
             >
               <h2 class="title text-center">All Matters Interior Design</h2>
-              <h5 class="description">
+              <h4 class="description">
                 Based in Nairobi-Ngong' Road, Lavington Builders and Designers
                 highlights the sophistication of Nairobi with the flavor, and
                 just a twist, of a posh living. With a style that’s unrestrained
@@ -35,7 +36,7 @@
                 there. Our interiors are bold statements balanced by quiet
                 details, the dark accents in a white room, the well-defined edge
                 that contains a surprise of color.
-              </h5>
+              </h4>
             </div>
           </div>
 
@@ -272,20 +273,28 @@
         </div>
       </div>
     </div>
+    
+
   </div>
 </template>
 
 <script>
 import { title } from 'process'
-import db from '../fb'
 import console, { log } from 'console'
+import imageSlider from '../components/imageslider.vue'
 export default {
   bodyClass: 'landing-page',
+  components:{
+    // imageSlider
+  },
   props: {
     header: {
+      
       type: String,
-      // default: require("@/assets/img/bg7.jpg")
-      default: require('@/assets/img/background/house2.jpeg')
+
+    //  default:  <imageSlider />
+
+      default: require('@/assets/img/background/house2.jpeg',),
     },
     teamImg1: {
       type: String,
@@ -304,7 +313,8 @@ export default {
     return {
       name: null,
       email: null,
-      message: null
+      message: null,
+   
     }
   },
   methods:{
@@ -324,7 +334,10 @@ export default {
   computed: {
     headerStyle () {
       return {
-        backgroundImage: `url(${this.header})`
+        backgroundImage: `url(${this.header})`,
+        // backgroundImage:<imageSlider/>
+     
+
       }
     }
   }

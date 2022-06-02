@@ -34,12 +34,12 @@
             v-if="isActivePanel(tabName[index])"
           >
             <slot :name="getTabContent(index + 1)">
-              This is the default text!
+              default
             </slot>
           </div>
         </div>
       </transition>
-    </md-card-content>
+    </md-card-content>z
   </md-card>
 </template>
 
@@ -74,8 +74,17 @@ export default {
     getTabContent: function(index) {
       return "tab-pane-" + index + "";
     }
+    
   }
 };
 </script>
 
-<style lang="css"></style>
+<style lang="css">
+.fade-enter-active, .fade-leave-active{
+    transition: all 0.5s ;
+}
+.fade-enter, .fade-leave-to{
+    opacity: 0;
+    transform: translate(30px);
+}
+</style>
