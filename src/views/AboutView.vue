@@ -80,6 +80,7 @@
               nav-pills-icons
               color-button="success"
             >
+            
               <template slot="tab-pane-1">
                 <div class="md-layout">
                   <div class="md-layout-item md-size-50 ml-auto">

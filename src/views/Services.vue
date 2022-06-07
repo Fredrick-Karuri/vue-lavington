@@ -8,7 +8,6 @@
     <div class="main main-raised">
       <div class="section section-basic">
           <myCarousel />
-        <!-- <img src="@/assets/img/beauty/flower.jpg" alt="flower image"> -->
         <div
           :style="{ 'background-image': 'url(@/assets/img/beauty/flower.jpg)' }"
         ></div>

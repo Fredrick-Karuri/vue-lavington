@@ -1,33 +1,35 @@
 <template>
-     <div class="container">
-          <div class="tim-typo">
-            <h2 class="title"><span></span>Our Services</h2>
-          </div>
+  <div class="container">
+    <div class="tim-typo">
+      <h2 class="title"><span></span>Our Services</h2>
+    </div>
 
-          <div class="tim-typo">
-            <h4 id="header1">Hy! How may we be of service?</h4>
-          </div>
+    <div class="tim-typo">
+      <h4 id="header1">Hy! How may we be of service?</h4>
+    </div>
 
-            
-   <div class="tim-typo">
-            <h3><span></span>Internal Decoration</h3>
-          </div>
-          <div class="md-layout">
-            <!-- <div class="md-layout-item md-size-100 mx-auto md-small-size-400"> -->
-              <div class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100">
-              <md-card>
-                <carousel
-                  :per-page="1"
-                  loop
-                  :speed="700"
-                  autoplay
-                  :autoplay-timeout="5000"
-                  :mouse-drag="false"
-                  navigationEnabled
-                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
-                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <!-- <slide>
+    <div class="tim-typo">
+      <h3><span></span>Internal Decoration</h3>
+    </div>
+    <div class="md-layout">
+      <!-- <div class="md-layout-item md-size-100 mx-auto md-small-size-400"> -->
+      <div
+        class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100"
+      >
+        <md-card>
+          <carousel
+            :per-page="1"
+            fade="true"
+            loop
+            :speed="700"
+            autoplay
+            :autoplay-timeout="5000"
+            :mouse-drag="false"
+            navigationEnabled
+            navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+            navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+          >
+            <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         
@@ -39,403 +41,359 @@
                       alt="carousel1"
                     />
                   </slide> -->
-                  <slide>
-                    <div class="carousel-caption">
-                    
-                    </div>
-                    <img
-                      :src="carousel10"
-                      style="width:100%;height:700px;"
-                      alt="carousel2"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                    </div>
-                    <img
-                      :src="carousel11"
-                      style="width:100%;height:700px;"
-                      alt="carousel3"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                     
-                    </div>
-                    <img
-                      :src="carousel12"
-                      style="width:100%;height:700px;"
-                      alt="carousel4"
-                    />
-                  </slide>
-                    <slide>
-                    <div class="carousel-caption">
-                     
-                     
-                    </div>
-                    <img
-                      :src="carouselinter"
-                      style="width:100%;height:700px;"
-                      alt="carousel4"
-                    />
-                  </slide>
-                  
-                </carousel>
-              </md-card>
-            </div>
-          </div>
-          <div class="tim-typo">
-            <h3><span></span>Wooden and Metal Security Doors</h3>
-          </div>
-          
-          <div class="md-layout">
-            <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
-              <div class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100">
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel10"
+                style="width:100%;height:700px;"
+                alt="carousel2"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel11"
+                style="width:100%;height:700px;"
+                alt="carousel3"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel12"
+                style="width:100%;height:700px;"
+                alt="carousel4"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carouselinter"
+                style="width:100%;height:700px;"
+                alt="carousel4"
+              />
+            </slide>
+          </carousel>
+        </md-card>
+      </div>
+    </div>
+    <div class="tim-typo">
+      <h3><span></span>Wooden and Metal Security Doors</h3>
+    </div>
 
-              <md-card>
-                <carousel
-                  :per-page="1"
-                  loop
-                  :speed="700"
-                  autoplay
-                  :autoplay-timeout="5000"
-                  :mouse-drag="false"
-                  navigationEnabled
-                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
-                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <slide>
-                    <div class="carousel-caption">
-                    </div>
-                    <img
-                      :src="carousel1"
-                      style="width:100%;height:700px;"
-                      alt="carousel1"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                    </div>
-                    <img
-                      :src="carousel2"
-                      style="width:100%;height:700px;"
-                      alt="carousel2"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                    </div>
-                    <img
-                      :src="carousel3"
-                      style="width:100%;height:700px;"
-                      alt="carousel3"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                    </div>
-                    <img
-                      :src="carousel4"
-                      style="width:100%;height:700px;"
-                      alt="carousel4"
-                    />
-                  </slide>
-                </carousel>
-              </md-card>
-            </div>
-          </div>
-          <div class="tim-typo">
-            <h3><span></span>General Office and Home</h3>
-          </div>
+    <div class="md-layout">
+      <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
+      <div
+        class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100"
+      >
+        <md-card>
+          <carousel
+            :per-page="1"
+            loop
+            :speed="700"
+            autoplay
+            :autoplay-timeout="5000"
+            :mouse-drag="false"
+            navigationEnabled
+            navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+            navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+          >
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel1"
+                style="width:100%;height:700px;"
+                alt="carousel1"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel2"
+                style="width:100%;height:700px;"
+                alt="carousel2"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel3"
+                style="width:100%;height:700px;"
+                alt="carousel3"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel4"
+                style="width:100%;height:700px;"
+                alt="carousel4"
+              />
+            </slide>
+          </carousel>
+        </md-card>
+      </div>
+    </div>
+    <div class="tim-typo">
+      <h3><span></span>General Office and Home</h3>
+    </div>
 
-          <div class="md-layout">
-            <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
-              <div class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100">
+    <div class="md-layout">
+      <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
+      <div
+        class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100"
+      >
+        <md-card>
+          <carousel
+            :per-page="1"
+            loop
+            :speed="700"
+            autoplay
+            :autoplay-timeout="5000"
+            :mouse-drag="false"
+            navigationEnabled
+            navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+            navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+          >
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel5"
+                style="width:100%;height:700px;"
+                alt="carousel1"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption">
+                <h4></h4>
+              </div>
+              <img
+                :src="carousel6"
+                style="width:100%;height:700px;"
+                alt="carousel2"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel7"
+                style="width:100%;height:700px;"
+                alt="carousel3"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel8"
+                style="width:100%;height:700px;"
+                alt="carousel4"
+              />
+            </slide>
+          </carousel>
+        </md-card>
+      </div>
+    </div>
 
-              <md-card>
-                <carousel
-                  :per-page="1"
-                  loop
-                  :speed="700"
-                  autoplay
-                  :autoplay-timeout="5000"
-                  :mouse-drag="false"
-                  navigationEnabled
-                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
-                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                    </div>
-                    <img
-                      :src="carousel5"
-                      style="width:100%;height:100%;"
-                      alt="carousel1"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                      <h4>
-                        
-                      </h4>
-                    </div>
-                    <img
-                      :src="carousel6"
-                      style="width:100%;height:100%;"
-                      alt="carousel2"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                      
-                    </div>
-                    <img
-                      :src="carousel7"
-                      style="width:100%;height:100%;"
-                      alt="carousel3"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                    
-                    </div>
-                    <img
-                      :src="carousel8"
-                      style="width:100%;height:100%;"
-                      alt="carousel4"
-                    />
-                  </slide>
-                </carousel>
-              </md-card>
-            </div>
-          </div>
+    <div class="tim-typo">
+      <h3><span></span>Furnishing</h3>
+    </div>
 
-       
-
-          <div class="tim-typo">
-            <h3><span></span>Furnishing</h3>
-          </div>
-
-          <!-- Todo: animate -->
-          <!-- <div class="md-layout-item md-size-70 mx-auto md-small-size-100"> -->
-              <div class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100">
-
-            <div  class="profile-tabs">
-              <div>
-              <tabs
-                :tab-name="['Beds', 'Chairs', 'Kitchen', 'Wardrobe']"
-                :tab-icon="['bed', 'chair', 'kitchen', 'kitchen']"
-                plain
-                nav-pills-icons
-                color-button="success"
-                
-              >
-                <template slot="tab-pane-1">
-                  <div class="md-layout">
-                    <div class="md-layout-item md-size-50 ml-auto">
-                      <img :src="tabPane1[0].image" class="rounded" />
-                      <img :src="tabPane1[1].image" class="rounded" />
-                    </div>
-                    <div class="md-layout-item md-size-50 mr-auto">
-                      <img :src="tabPane1[3].image" class="rounded" />
-                      <img :src="tabPane1[2].image" class="rounded" />
-                    </div>
-                  </div>
-                </template>
-                <template slot="tab-pane-2">
-                  <div class="md-layout">
-                    <div class="md-layout-item md-size-50 ml-auto">
-                      <img :src="tabPane2[0].image" class="rounded" />
-                      <img :src="tabPane2[1].image" class="rounded" />
-                      <img :src="tabPane2[2].image" class="rounded" />
-                    </div>
-                    <div class="md-layout-item md-size-50 mr-auto">
-                      <img :src="tabPane2[3].image" class="rounded" />
-                      <img :src="tabPane2[4].image" class="rounded" />
-                    </div>
-                  </div>
-                </template>
-                <template slot="tab-pane-3">
-                  <div class="md-layout">
-                    <div class="md-layout-item md-size-50 ml-auto">
-                      <img :src="tabPane3[0].image" class="rounded" />
-                      <img :src="tabPane3[1].image" class="rounded" />
-                    </div>
-                    <div class="md-layout-item md-size-50 mr-auto">
-                      <img :src="tabPane3[2].image" class="rounded" />
-                      <img :src="tabPane3[3].image" class="rounded" />
-                      <img :src="tabPane3[4].image" class="rounded" />
-                    </div>
-                  </div>
-                </template>
-                 <template slot="tab-pane-4">
-                  <div class="md-layout">
-                    <div class="md-layout-item md-size-50 ml-auto">
-                      <img :src="tabPane3[0].image" class="rounded" />
-                      <img :src="tabPane3[1].image" class="rounded" />
-                    </div>
-                    <div class="md-layout-item md-size-50 mr-auto">
-                      <img :src="tabPane3[2].image" class="rounded" />
-                      <img :src="tabPane3[3].image" class="rounded" />
-                      <img :src="tabPane3[4].image" class="rounded" />
-                    </div>
-                  </div>
-                </template>
-              </tabs>
-            </div>
-            </div>
-          </div>
-
-          <div class="tim-typo">
-            <h3><span></span>CCTV and Alarm System</h3>
-          </div>
-          <div class="md-layout">
-            <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
-              <div class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100">
-
-              <md-card>
-                <carousel
-                  :per-page="1"
-                  loop
-                  :speed="700"
-                  autoplay
-                  :autoplay-timeout="5000"
-                  :mouse-drag="false"
-                  navigationEnabled
-                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
-                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <slide>
-                    <div class="carousel-caption">
-                      <h4>
-                        
-                      </h4>
-                    </div>
-                    <img
-                      :src="carousel17"
-                      style="width:100%;height:600px;"
-                      alt="image of cctv camera"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                      
-                    </div>
-                    <img
-                      :src="carousel18"
-                      style="width:100%;height:600px;"
-                      alt="image of cctv camera"
-                    />
-                  </slide>
-
-                  <slide>
-                    <div class="carousel-caption">
-                      
-                    </div>
-                    <img
-                      :src="carouselAlarm1"
-                      style="width:100%;height:600px;"
-
-                      alt="image of an alarm system"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                    </div>
-                    <img
-                      :src="carouselAlarm2"
-                      style="width:100%;height:600px;"
-
-                      alt="image of an alarm system"
-
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                    </div>
-                    <img
-                      :src="carouselAlarm3"
-                      style="width:100%;height:600px;"
-
-                      alt="image of an alarm system"
-
-                    />
-                  </slide>
-                 
-                </carousel>
-              </md-card>
-            </div>
-          </div>
-          <div class="section">
-            <div class="container text-center">
+    <!-- Todo: animate -->
+    <!-- <div class="md-layout-item md-size-70 mx-auto md-small-size-100"> -->
+    <div
+      class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100"
+    >
+      <div class="profile-tabs">
+        <div>
+          <tabs
+            :tab-name="['Beds', 'Chairs', 'Kitchen', 'Wardrobe']"
+            :tab-icon="['bed', 'chair', 'kitchen', 'kitchen']"
+            plain
+            nav-pills-icons
+            color-button="success"
+          >
+            <template slot="tab-pane-1">
               <div class="md-layout">
-                <div
-                  class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center"
-                >
-                  <h3>House Repairs</h3>
-                  <h4>
-                    Our designers ensure that your remodel, new construction, or
-                    everything in between goes well. Your designer helps oversee
-                    the project by selecting materials and coordinating with
-                    builders and tradespeople to ensure the designs are carried
-                    out as planned.
-                  </h4>
+                <div class="md-layout-item md-size-50 ml-auto">
+                  <img :src="tabPane1[0].image" class="rounded" />
+                  <img :src="tabPane1[1].image" class="rounded" />
+                </div>
+                <div class="md-layout-item md-size-50 mr-auto">
+                  <img :src="tabPane1[3].image" class="rounded" />
+                  <img :src="tabPane1[2].image" class="rounded" />
                 </div>
               </div>
-            </div>
-          </div>
-        
+            </template>
+            <template slot="tab-pane-2">
+              <div class="md-layout">
+                <div class="md-layout-item md-size-50 ml-auto">
+                  <img :src="tabPane2[0].image" class="rounded" />
+                  <img :src="tabPane2[1].image" class="rounded" />
+                  <img :src="tabPane2[2].image" class="rounded" />
+                </div>
+                <div class="md-layout-item md-size-50 mr-auto">
+                  <img :src="tabPane2[3].image" class="rounded" />
+                  <img :src="tabPane2[4].image" class="rounded" />
+                </div>
+              </div>
+            </template>
+            <template slot="tab-pane-3">
+              <div class="md-layout">
+                <div class="md-layout-item md-size-50 ml-auto">
+                  <img :src="tabPane3[0].image" class="rounded" />
+                  <img :src="tabPane3[1].image" class="rounded" />
+                </div>
+                <div class="md-layout-item md-size-50 mr-auto">
+                  <img :src="tabPane3[2].image" class="rounded" />
+                  <img :src="tabPane3[3].image" class="rounded" />
+                  <img :src="tabPane3[4].image" class="rounded" />
+                </div>
+              </div>
+            </template>
+            <template slot="tab-pane-4">
+              <div class="md-layout">
+                <div class="md-layout-item md-size-50 ml-auto">
+                  <img :src="tabPane3[0].image" class="rounded" />
+                  <img :src="tabPane3[1].image" class="rounded" />
+                </div>
+                <div class="md-layout-item md-size-50 mr-auto">
+                  <img :src="tabPane3[2].image" class="rounded" />
+                  <img :src="tabPane3[3].image" class="rounded" />
+                  <img :src="tabPane3[4].image" class="rounded" />
+                </div>
+              </div>
+            </template>
+          </tabs>
+        </div>
+      </div>
+    </div>
 
-          <div class="tim-typo">
-            <h3><span></span>Electrical Fence Installation</h3>
-          </div>
-          <div class="md-layout">
-            <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
-              <div class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100">
+    <div class="tim-typo">
+      <h3><span></span>CCTV and Alarm System</h3>
+    </div>
+    <div class="md-layout">
+      <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
+      <div
+        class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100"
+      >
+        <md-card>
+          <carousel
+            :per-page="1"
+            loop
+            :speed="700"
+            autoplay
+            :autoplay-timeout="5000"
+            :mouse-drag="false"
+            navigationEnabled
+            navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+            navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+          >
+            <slide>
+              <div class="carousel-caption">
+                <h4></h4>
+              </div>
+              <img
+                :src="carousel17"
+                style="width:100%;height:600px;"
+                alt="image of cctv camera"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel18"
+                style="width:100%;height:600px;"
+                alt="image of cctv camera"
+              />
+            </slide>
 
-              <md-card>
-                <carousel
-                  :per-page="1"
-                  loop
-                  :speed="700"
-                  autoplay
-                  :autoplay-timeout="5000"
-                  :mouse-drag="false"
-                  navigationEnabled
-                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
-                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <slide>
-                    <div class="carousel-caption">
-                      <h4>
-                        
-                      </h4>
-                    </div>
-                    <img
-                      :src="carousel13"
-                      style="width:100%;height:100%;"
-                      alt="carousel1"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                      <h4>
-                        
-                      </h4>
-                    </div>
-                    <img
-                      :src="carousel14"
-                      style="width:100%;height:100%;"
-                      alt="carousel2"
-                    />
-                  </slide>
-                  <!-- <slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carouselAlarm1"
+                style="width:100%;height:600px;"
+                alt="image of an alarm system"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carouselAlarm2"
+                style="width:100%;height:600px;"
+                alt="image of an alarm system"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carouselAlarm3"
+                style="width:100%;height:600px;"
+                alt="image of an alarm system"
+              />
+            </slide>
+          </carousel>
+        </md-card>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container text-center">
+        <div class="md-layout">
+          <div
+            class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center"
+          >
+            <h3>House Repairs</h3>
+            <h4>
+              Our designers ensure that your remodel, new construction, or
+              everything in between goes well. Your designer helps oversee the
+              project by selecting materials and coordinating with builders and
+              tradespeople to ensure the designs are carried out as planned.
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="tim-typo">
+      <h3><span></span>Electrical Fence Installation</h3>
+    </div>
+    <div class="md-layout">
+      <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
+      <div
+        class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100"
+      >
+        <md-card>
+          <carousel
+            :per-page="1"
+            loop
+            :speed="700"
+            autoplay
+            :autoplay-timeout="5000"
+            :mouse-drag="false"
+            navigationEnabled
+            navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+            navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+          >
+            <slide>
+              <div class="carousel-caption">
+                <h4></h4>
+              </div>
+              <img
+                :src="carousel13"
+                style="width:100%;height:100%;"
+                alt="carousel1"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption">
+                <h4></h4>
+              </div>
+              <img
+                :src="carousel14"
+                style="width:100%;height:100%;"
+                alt="carousel2"
+              />
+            </slide>
+            <!-- <slide>
                     <div class="carousel-caption">
                       <h4>
                         
@@ -447,146 +405,131 @@
                       alt="carousel3"
                     />
                   </slide> -->
-                
-                </carousel>
-              </md-card>
-            </div>
-          </div>
+          </carousel>
+        </md-card>
+      </div>
+    </div>
 
-        
-
-          <div class="tim-typo">
-            <h3><span></span>Pottyless Window</h3>
-          </div>
-          <div class="md-layout">
-            <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
-              <md-card>
-                <carousel
-                  :per-page="1"
-                  loop
-                  :speed="700"
-                  autoplay
-                  :autoplay-timeout="5000"
-                  :mouse-drag="false"
-                  navigationEnabled
-                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
-                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                    </div>
-                    <img
-                      :src="carousel5"
-                      style="width:auto;height:500px;"
-                      alt="carousel1"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                    </div>
-                    <img
-                      :src="carousel6"
-                      style="width:auto;height:500px;"
-                      alt="carousel2"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                      
-                    </div>
-                    <img
-                      :src="carousel7"
-                      style="width:auto;height:500px;"
-                      alt="carousel3"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                      <h4>
-                        
-                      </h4>
-                    </div>
-                    <img
-                      :src="carousel8"
-                      style="width:auto;height:500px;"
-                      alt="carousel4"
-                    />
-                  </slide>
-                </carousel>
-              </md-card>
-            </div>
-          </div>
-          <!-- <div class="tim-typo">
+    <div class="tim-typo">
+      <h3><span></span>Pottyless Window</h3>
+    </div>
+    <div class="md-layout">
+      <div class="md-layout-item md-size-66 mx-auto md-small-size-100">
+        <md-card>
+          <carousel
+            :per-page="1"
+            loop
+            :speed="700"
+            autoplay
+            :autoplay-timeout="5000"
+            :mouse-drag="false"
+            navigationEnabled
+            navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+            navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+          >
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel5"
+                style="width:auto;height:500px;"
+                alt="carousel1"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel6"
+                style="width:auto;height:500px;"
+                alt="carousel2"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel7"
+                style="width:auto;height:500px;"
+                alt="carousel3"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption">
+                <h4></h4>
+              </div>
+              <img
+                :src="carousel8"
+                style="width:auto;height:500px;"
+                alt="carousel4"
+              />
+            </slide>
+          </carousel>
+        </md-card>
+      </div>
+    </div>
+    <!-- <div class="tim-typo">
             <h3><span></span>General Construction</h3>
           </div> -->
-          <div class="section">
-            <div class="container text-center">
-              <div class="md-layout">
-                <div
-                  class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center"
-                >
-                  <h3>General Construction</h3>
-                  <h4>
-                    Our designers ensure that your remodel, new construction, or
-                    everything in between goes well. Your designer helps oversee
-                    the project by selecting materials and coordinating with
-                    builders and tradespeople to ensure the designs are carried
-                    out as planned.
-                  </h4>
-                </div>
-              </div>
-            </div>
-          </div>
 
-       
-
-          <div class="tim-typo">
-            <h3><span></span>Landscaping</h3>
-          </div>
-          <div class="md-layout">
-            <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
-              <div class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100">
-
-              <md-card>
-                <carousel
-                  :per-page="1"
-                  loop
-                  :speed="700"
-                  autoplay
-                  :autoplay-timeout="5000"
-                  :mouse-drag="false"
-                  navigationEnabled
-                  navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
-                  navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
-                >
-                  <slide>
-                    <div class="carousel-caption">
-                     
-                    </div>
-                    <img
-                      :src="carousel21"
-                      style="width:100%;height:100%;"
-                      alt="carousel1"
-                    />
-                  </slide>
-                  <slide>
-                    <div class="carousel-caption">
-                      
-                    </div>
-                    <img
-                      :src="carousel22"
-                      style="width:100%;height:100%;"
-                      alt="carousel2"
-                    />
-                  </slide>
-                
-                </carousel>
-              </md-card>
-            </div>
+          
+    <div class="section">
+      <div class="container text-center">
+        <div class="md-layout">
+          <div
+            class="md-layout-item md-size-66 md-xsmall-size-100 ml-auto mr-auto text-center"
+          >
+            <h3>General Construction</h3>
+            <h4>
+              Our designers ensure that your remodel, new construction, or
+              everything in between goes well. Your designer helps oversee the
+              project by selecting materials and coordinating with builders and
+              tradespeople to ensure the designs are carried out as planned.
+            </h4>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="tim-typo">
+      <h3><span></span>Landscaping</h3>
+    </div>
+    <div class="md-layout">
+      <!-- <div class="md-layout-item md-size-66 mx-auto md-small-size-100"> -->
+      <div
+        class="md-layout-item md-medium-size-100 md-small-size-50 md-xsmall-size-100"
+      >
+        <md-card>
+          <carousel
+            :per-page="1"
+            loop
+            :speed="700"
+            autoplay
+            :autoplay-timeout="5000"
+            :mouse-drag="false"
+            navigationEnabled
+            navigationNextLabel="<i class='material-icons'>keyboard_arrow_right</i>"
+            navigationPrevLabel="<i class='material-icons'>keyboard_arrow_left</i>"
+          >
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel21"
+                style="width:100%;height:100%;"
+                alt="carousel1"
+              />
+            </slide>
+            <slide>
+              <div class="carousel-caption"></div>
+              <img
+                :src="carousel22"
+                style="width:100%;height:100%;"
+                alt="carousel2"
+              />
+            </slide>
+          </carousel>
+          
+        </md-card>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
@@ -594,7 +537,7 @@ import { Tabs } from '@/components'
 
 export default {
   components: {
-    Tabs,
+    Tabs
   },
   bodyClass: 'profile-page',
 
@@ -616,8 +559,6 @@ export default {
       carousel12: require('@/assets/img/internal-decoration/decor4.jpg'),
       carouselinter: require('@/assets/img/background/interior1.jpg'),
 
-
-
       carousel13: require('@/assets/img/fence/fence1.jpg'),
       carousel14: require('@/assets/img/fence/fence2.jpg'),
       carousel15: require('@/assets/img/fence/fence3.jpg'),
@@ -636,7 +577,6 @@ export default {
       carouselAlarm1: require('@/assets/img/alarm/alarm1.jpg'),
       carouselAlarm2: require('@/assets/img/alarm/alarm2.jpg'),
       carouselAlarm3: require('@/assets/img/alarm/alarm3.jpg'),
-      
 
       tabPane1: [
         { image: require('@/assets/img/bed/bed12.jpg') },
@@ -678,7 +618,7 @@ export default {
       type: String,
       default: require('@/assets/img/background/house1.jpeg')
     },
-     img: {
+    img: {
       type: String,
       default: require('@/assets/img/faces/christian.jpg')
     }

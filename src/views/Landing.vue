@@ -4,7 +4,6 @@
       <div class="container">
         <div class="md-layout">
           <div class="image-wrapper">
-            <!-- <imageSlider/> -->
             <div
               class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
             >
@@ -19,6 +18,7 @@
         </div>
       </div>
     </parallax>
+ 
     <div class="main main-raised">
       <div class="section section-basic">
         <div class="container">
@@ -237,6 +237,7 @@
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
               <h2 class="text-center title">Work with us</h2>
+              
               <h4 class="text-center description">
                 Divide details about your product or agency work into parts.
                 Write a few lines about each one and contact us about any
@@ -279,9 +280,9 @@
 </template>
 
 <script>
-import { title } from 'process'
+// import { title } from 'process'
 import console, { log } from 'console'
-import imageSlider from '../components/imageslider.vue'
+// import imageSlider from '../components/imageslider.vue'
 export default {
   bodyClass: 'landing-page',
   components:{
@@ -340,7 +341,8 @@ export default {
 
       }
     }
-  }
+  },
+
 }
 </script>
 

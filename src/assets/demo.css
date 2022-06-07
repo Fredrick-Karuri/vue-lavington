@@ -276,3 +276,15 @@ img {
 .next:hover {
   background-color: rgba(0, 0, 0, 0.9);
 }
+
+/* .carousel-item {
+  transition: transform 2.6s ease-in-out;
+}
+
+.carousel-fade .active.carousel-item-start,
+.carousel-fade .active.carousel-item-end {
+  transition: opacity 0s 2.6s;
+} */
+
+
+
