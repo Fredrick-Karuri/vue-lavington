@@ -7,11 +7,15 @@
 
     <div class="main main-raised">
       <div class="section section-basic">
+        <div class="container">
+
+       
           <myCarousel />
         <div
           :style="{ 'background-image': 'url(@/assets/img/beauty/flower.jpg)' }"
         ></div>
       </div>
+       </div>
     </div>
   </div>
 </template>
@@ -64,11 +68,7 @@ export default {
 .section {
   padding: 0;
 }
-#header1 {
-  font-family: Montserrat;
-  font-weight: 300;
-  font-size: 28.6px;
-}
+
 
 @media all and (min-width: 991px) {
   .btn-container {

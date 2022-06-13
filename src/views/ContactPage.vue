@@ -14,21 +14,19 @@
               </div>
             </div>
           </div>
+            <div id="">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1088.1025090205055!2d36.742186666038315!3d-1.3050472382094522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x182f1b75c05f2ea7%3A0x433a956a8675f232!2slavington%20builders%20and%20designers!3m2!1d-1.305321!2d36.741953599999995!5e0!3m2!1sen!2ske!4v1653983025241!5m2!1sen!2ske"
+              width="1920"
+              height="1280"
+              style="border:0;"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              scrolling="yes"
+            ></iframe>
+          </div>
           <div class="description text-center">
-            <div id="images">
-          
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d1088.1025090205055!2d36.742186666038315!3d-1.3050472382094522!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x182f1b75c05f2ea7%3A0x433a956a8675f232!2slavington%20builders%20and%20designers!3m2!1d-1.305321!2d36.741953599999995!5e0!3m2!1sen!2ske!4v1653983025241!5m2!1sen!2ske"
-                width="600"
-                height="450"
-                style="border:0;"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-                scrolling="yes"
-
-              ></iframe>
-            </div>
             <p>
               <br />
               Lavington Builders and designers <br />
@@ -67,6 +65,9 @@
               ><i class="fab fa-whatsapp"></i
             ></md-button>
           </div>
+          
+        
+          
         </div>
       </div>
     </div>

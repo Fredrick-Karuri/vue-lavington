@@ -7,18 +7,23 @@
             <div
               class="md-layout-item md-size-50 md-small-size-70 md-xsmall-size-100"
             >
+            <transition name="fade" appear>
               <h1 class="title">Your Dream Home Starts With Us.</h1>
-              <h3>
-                Need to decorate your home to your liking ? <br />
-                Try us.
-              </h3>
+              </transition>
+              <transition name="fade" appear>
+                <h3>
+                  Need to decorate your home to your liking ? <br />
+                  Try us.
+                </h3>
+              </transition>
+
               <br />
             </div>
           </div>
         </div>
       </div>
     </parallax>
- 
+
     <div class="main main-raised">
       <div class="section section-basic">
         <div class="container">
@@ -98,7 +103,6 @@
                 <div class="team-player">
                   <md-card class="md-card-plain">
                     <div class="md-layout-item md-size-50 mx-auto">
-
                       <img
                         src="data:image/png;base64,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"
                         alt="Thumbnail Image"
@@ -237,11 +241,12 @@
           <div class="md-layout">
             <div class="md-layout-item md-size-66 md-xsmall-size-100 mx-auto">
               <h2 class="text-center title">Work with us</h2>
-              
+
               <h4 class="text-center description">
                 Divide details about your product or agency work into parts.
                 Write a few lines about each one and contact us about any
-                further collaboration. We will respond get back to you in good time.
+                further collaboration. We will respond get back to you in good
+                time.
               </h4>
               <form class="contact-form">
                 <div class="md-layout">
@@ -250,7 +255,6 @@
                       <label>Your Name</label>
                       <md-input v-model="name" type="text"></md-input>
                     </md-field>
-                    
                   </div>
                   <div class="md-layout-item md-size-60">
                     <md-field>
@@ -259,14 +263,52 @@
                     </md-field>
                   </div>
                 </div>
-                <md-field maxlength="5">
+                <!-- <md-field maxlength="5">
                   <label>Your Message</label>
                   <md-textarea v-model="message"></md-textarea>
-                </md-field>
+                </md-field> -->
+                <div
+                  class="my-3"
+                  data-aos="fade-up"
+                  data-aos-once="true"
+                  data-aos-duration="1000"
+                >
+                  <md-field maxlength="5">
+                    <label>Your Message</label>
+                    <md-textarea v-model="text"></md-textarea>
+                  </md-field>
+                  <!-- <textarea
+                    name="message"
+                    v-model="text"
+                    placeholder="message"
+                    class="pinput"
+                    rows="4"
+                    :class="{
+                      pgray: !nightMode,
+                      'pgray-dark': nightMode,
+                      'text-light': nightMode
+                    }"
+                    style="transition-delay: 0.6s"
+                  ></textarea> -->
+                </div>
                 <div class="md-layout">
                   <div class="md-layout-item md-size-33 mx-auto text-center">
-                    <md-button class="md-success">Send Message</md-button>
+                    <md-button
+                      class="md-success"
+                      @click.prevent="sendEmail"
+                      data-aos="fade"
+                      data-aos-once="true"
+                      data-aos-duration="1000"
+                      data-aos-offset="50"
+                      >Send Message</md-button
+                    >
                   </div>
+                  <Snackbar
+                    :showSnackbar="showSnackbar"
+                    @close="closeSnackbar"
+                    :snackbarMessage="snackbarMessage"
+                    :snackbarColor="snackbarColor"
+                  />
                 </div>
               </form>
             </div>
@@ -274,28 +316,28 @@
         </div>
       </div>
     </div>
-    
-
   </div>
 </template>
 
 <script>
 // import { title } from 'process'
 import console, { log } from 'console'
+import Snackbar from '../components/helpers/MySnackBar.vue'
+import emailjs from 'emailjs-com'
+import config from '../../config'
+
 // import imageSlider from '../components/imageslider.vue'
 export default {
   bodyClass: 'landing-page',
-  components:{
+  components: {
+    Snackbar
     // imageSlider
   },
   props: {
     header: {
-      
       type: String,
-
-    //  default:  <imageSlider />
-
-      default: require('@/assets/img/background/house2.jpeg',),
+      //  default:  <imageSlider />
+      default: require('@/assets/img/background/house2.jpeg')
     },
     teamImg1: {
       type: String,
@@ -312,37 +354,72 @@ export default {
   },
   data () {
     return {
-      name: null,
-      email: null,
-      message: null,
-   
+      email: '',
+      name: '',
+      text: '',
+      showSnackbar: false,
+      snackbarMessage: '',
+      snackbarColor: ''
     }
   },
-  methods:{
-    submit(){
-      if(this.$refs.form.validate()){
-        name:this.name
-        title:this.title
-        content:this.content
-        person:'Boaz'
-        status:'ongoing'
-
-
+  methods: {
+    closeSnackbar (val) {
+      if (!val) {
+        setTimeout(() => {
+          this.showSnackbar = val
+        }, 1000)
       }
-      db.collection('projects').add(project).then(()=>{console.log('added to db')})
+    },
+
+    sendEmail () {
+      if (!this.email || !this.name || !this.text) {
+        this.showSnackbar = true
+        this.snackbarMessage = 'Please fill all the fields!'
+        this.snackbarColor = 'rgb(212, 149, 97)'
+      } else {
+        var obj = {
+          user_email: this.email,
+          from_name: this.name,
+          message: this.text,
+          to_name: 'Lavington Builders'
+        }
+
+        emailjs
+          .send(
+            config.emailjs.serviceID,
+            config.emailjs.templateID,
+            obj,
+            config.emailjs.PublicKey
+
+            // config.emailjs.userID
+          )
+          .then(
+            result => {
+              this.showSnackbar = true
+              this.snackbarMessage = 'Thankyou! Message received.'
+              this.snackbarColor = '#1aa260'
+
+              this.email = ''
+              this.text = ''
+              this.name = ''
+            },
+            error => {
+              this.showSnackbar = true
+              this.snackbarMessage = 'Oops! Something went wrong.'
+              this.snackbarColor = 'rgb(212, 149, 97)'
+            }
+          )
+      }
     }
   },
   computed: {
     headerStyle () {
       return {
-        backgroundImage: `url(${this.header})`,
+        backgroundImage: `url(${this.header})`
         // backgroundImage:<imageSlider/>
-     
-
       }
     }
-  },
-
+  }
 }
 </script>
 

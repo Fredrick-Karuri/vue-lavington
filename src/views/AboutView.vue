@@ -138,7 +138,7 @@ export default {
     return {
       tabPane1: [
         { image: require('@/assets/img/bed/bed12.jpg') },
-        { image: require('@/assets/img/bed/bed11.jpg') },
+        { image: require('@/assets/img/bed/bed10.jpg') },
         { image: require('@/assets/img/bed/bed13.jpg') },
         { image: require('@/assets/img/bed/bed6.jpg') }
       ],
